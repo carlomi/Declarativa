@@ -1,0 +1,12 @@
+puede_sobrevivir(eric) :-
+    necesita(eric, refugio),
+    necesita(eric, comida),
+    necesita(eric, agua).
+
+zona_peligrosa(Zona) :-
+    aparece_en(canibales, Zona);
+    aparece_en(mutantes, Zona).
+
+zona_peligro_alto(Zona, Momento) :-
+    peligro(Zona, alto, Momento);
+    peligro(Zona, alto).

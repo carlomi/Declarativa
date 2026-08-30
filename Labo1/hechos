@@ -1,0 +1,43 @@
+superviviente(eric).
+superviviente(timmy).
+superviviente(kelvin).
+superviviente(virginia).
+
+protagonista(eric).
+edad(eric, 30).
+aliado_capturado(kelvin).
+no_habla(kelvin).
+tiene(eric, encendedor).
+tiene(eric, hacha).
+mutante(virginia).
+se_convierte(virginia, aliada).
+
+carga_troncos(kelvin).
+construye(kelvin).
+
+zona(superficie).
+zona(cuevas).
+zona(bunkeres).
+
+enemigos(canibales).
+enemigos(mutantes).
+aparecen(canibales, superficie).
+aparecen(mutantes, superficie, cuevas).
+necesita(bunker, llaves).
+
+enemigos_en(bunkeres, ninguno).
+
+peligro(cuevas, alto).
+peligro(superficie, medio, dia).
+peligro(superficie, alto, noche).
+
+necesita(eric, refugio).
+necesita(eric, comida).
+necesita(eric, agua).
+
+material(troncos).
+material(piedras).
+
+esta_en(troncos, superficie).
+esta_en(piedras, superficie).
+
