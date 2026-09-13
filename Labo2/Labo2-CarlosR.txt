@@ -1,0 +1,14 @@
+
+EJERCICIO 1:
+falla_mercado(X,Y) :- 
+	informacion_incompleta(X),
+	informacion_incompleta(Y).
+
+EJERCICIO 2:
+pase_vacaciones_en(yo, Grecia) , pase_vacaciones_en(yo, marruecos).
+
+
+EJERCICIO 3:
+supera(realidad, ficcion), no_lo_puede_creer(el).
+
+  
